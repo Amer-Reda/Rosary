@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #b6afb4;
+}
+.d-flex{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  padding: 20px;
+  color: brown;
+}
+h2{
+  padding: 10px;
+  color: rgb(62, 36, 87);
+}
+h3{
+  padding: 10px;
+  color: darkblue;
+  font-size: 25px;
+}
+
+.counter{
+  width: 130px;
+  height: 130px;
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#incrementBtn{
+  width: 60px;
+  height: 30px;
+  background-color: rgb(24, 4, 122);
+  position: relative;
+  bottom: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+#incrementBtn p{
+  font-size: 15px;
+  color: beige;
+}
+.counter div:hover{
+  width: 90%;
+  height: 90%;
+  box-shadow: 1px 1px 10px 1px #4c256bd0;
+}
